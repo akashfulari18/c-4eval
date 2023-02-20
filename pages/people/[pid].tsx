@@ -18,7 +18,7 @@ const Pid = () => {
         setData(res)
       })
       .catch((e) => console.log(e));
-    },[])
+    },[id])
     
     // console.log(data)
   return (
