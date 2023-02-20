@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React,{useState,useEffect}  from "react"
 import { Box, Text ,Flex} from "@chakra-ui/react";
 import { Todos } from "@/utils/types";
-import Single_user_todo from "../components/single_user_todo";
+import Single_user_todo from "../../components/single_user_todo";
 
 const Pid = () => {
   const [data, setData] = useState<Todos[]>([]);
