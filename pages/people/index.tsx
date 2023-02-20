@@ -4,7 +4,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import React from 'react'
 
 import {Box,Flex} from "@chakra-ui/react"
-import Single_user from '../components/single_user'
+import Single_user from '../../components/single_user'
 type PeoplesProps={
   pepArr:User[]
 }
