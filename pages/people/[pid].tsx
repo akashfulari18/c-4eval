@@ -22,19 +22,19 @@ const Pid = () => {
     
     // console.log(data)
   return (
-    <div>
+
       <Box  textAlign={"center"}>
       User ID: {id}
       <Box>Todos Data</Box>
         {data &&
-          data?.map((item) => (
+          data?.map((item:Todos) => (
             <Box key={item.id} textAlign="center">
               
              <Single_user_todo todo={item} />
             </Box>
           ))}
       </Box>
-    </div>
+   
   );
 };
 

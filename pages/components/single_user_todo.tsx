@@ -7,7 +7,7 @@ type Single_user_todos_props={
 }
 const Single_user_todo = ({todo}:Single_user_todos_props) => {
   return (
-    <div>
+    
         <Box border="1px solid gray" width="300px" m="auto">
           <Text> {todo.completed?"completed" :"not-Comleted"}</Text>
 
@@ -15,7 +15,7 @@ const Single_user_todo = ({todo}:Single_user_todos_props) => {
              {todo.title}
             </Text> 
         </Box>
-    </div>
+    
   )
 }
 
