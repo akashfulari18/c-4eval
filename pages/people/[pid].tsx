@@ -1,6 +1,6 @@
 import { getTodosAPI } from "@/utils/api";
 import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
+import React,{useState,useEffect}  from "react"
 import { Box, Text ,Flex} from "@chakra-ui/react";
 import { Todos } from "@/utils/types";
 import Single_user_todo from "../components/single_user_todo";
